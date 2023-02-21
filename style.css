@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.split-page{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.panel{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-form{
+    display: flex;
+    flex-direction: column;
+
+}
